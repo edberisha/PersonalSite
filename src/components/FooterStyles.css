@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: rgba(19, 19, 19, 0.8);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.location p,
+.phone p,
+.email p,
+.social p {
+  margin-bottom: 0;
+}
