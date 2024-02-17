@@ -10,7 +10,7 @@ const WorkCard = () => {
       <h1 className="project-heading">Projects</h1>
       <div className="project-container">
         <div className="project-card">
-          <img src={MMORPG} alt="image" />
+          <img src={MMORPG} alt="mmrpgphoto" />
           <h2 className="project-title" style={{ color: "white" }}>
             Math Mind RPG
           </h2>
@@ -32,7 +32,7 @@ const WorkCard = () => {
           </div>
         </div>
         <div className="project-card">
-          <img src={Peak} alt="image" />
+          <img src={Peak} alt="peakphoto" />
           <h2 className="project-title" style={{ color: "white" }}>
             Peak Artificial Intelligence
           </h2>
