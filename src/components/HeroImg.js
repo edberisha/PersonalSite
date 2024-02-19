@@ -14,25 +14,25 @@ const HeroImg = () => {
         <img className="into-img" src={officeimage} alt="officeimage" />
       </div>
       <div className="content">
-        <p>ED BERISHA</p>
-        <h1>FULL STACK ENGINEER</h1>
-        <div>
+        <p style={{ fontSize: "40px" }}>ED BERISHA</p>
+        <h1 style={{ marginTop: "0px" }}>FULL STACK ENGINEER</h1>
+        <div style={{ marginTop: "12px" }}>
           <Link to="/project" className="btn">
             Projects
           </Link>
-          <Link to="/contact" className="btn-light">
+          <Link to="/contact" className="btn"> {/* Apply the same class "btn" */}
             Contact
           </Link>
         </div>
         <div className="photos-container">
           <img src={reactphoto} alt="React" className="project-photo" />
           <img src={pythonphoto} alt="Python" className="project-photo" />
-          <img src={sqlphoto} alt="Sql" className="project-photo" />
           <img
             src={javascriptphoto}
             alt="javascript"
             className="project-photo"
           />
+          <img src={sqlphoto} alt="Sql" className="project-photo" />
         </div>
       </div>
     </div>

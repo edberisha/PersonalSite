@@ -1,6 +1,7 @@
 import React from "react";
 import MMORPG from "../assets/MMRPG.png";
 import Peak from "../assets/Peak.png";
+import Potluck from "../assets/potluck.png";
 import { NavLink } from "react-router-dom";
 import "./WorkCardStyles.css";
 
@@ -46,6 +47,28 @@ const WorkCard = () => {
             <div className="pro-btns">
               <NavLink
                 to="https://peak-sleek-uyitp8ljz-peak-sentry.vercel.app/"
+                className="btn"
+              >
+                Go To Project
+              </NavLink>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={Potluck} alt="potluck photo" />
+          <h2 className="project-title" style={{ color: "white" }}>
+            PotLuck Planner
+          </h2>
+          <div className="pro-content">
+            <div className="pro-details">
+              <p>
+                PotLuck Planner. Users can schedule upcoming events and assign
+                food, drinks, and other item to guests.
+              </p>
+            </div>
+            <div className="pro-btns">
+              <NavLink
+                to="https://github.com/jgrimes86/Potluck-Planner"
                 className="btn"
               >
                 Go To Project

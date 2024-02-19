@@ -1,0 +1,36 @@
+.about-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.about-card {
+  display: flex;
+  align-items: center;
+  max-width: 800px; /* Adjust maximum width of the card */
+  padding: 40px; /* Increase padding */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ed-photo {
+  width: 300px; /* Increase the width of the photo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 40px; /* Adjust the spacing between the image and text */
+}
+
+.text-container {
+  max-width: 500px; /* Adjust the maximum width of the text container */
+}
+
+.text-container h2 {
+  font-size: 32px; /* Increase font size */
+  margin-bottom: 20px; /* Increase margin bottom */
+}
+
+.text-container p {
+  font-size: 18px; /* Increase font size */
+  line-height: 1.6; /* Increase line height */
+}
