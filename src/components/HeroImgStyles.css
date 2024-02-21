@@ -74,7 +74,7 @@
 .content .btn {
   margin: 1rem 0.2rem;
   padding: 0.5rem 1rem; /* Add padding for better appearance */
-  background-color: #007bff; /* Set button background color */
+  background-color: #f8db02d6; /* Set button background color */
   color: #fff; /* Set button text color */
   border: none; /* Remove button border */
   border-radius: 4px; /* Add border radius for rounded corners */
@@ -83,6 +83,6 @@
 }
 
 .content .btn:hover {
-  background-color: #ede436; /* Change background color on hover */
+  background-color: #003976; /* Change background color on hover */
   color: #fff; /* Change text color on hover */
 }

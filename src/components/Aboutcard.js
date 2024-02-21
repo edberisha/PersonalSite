@@ -5,7 +5,7 @@ import "./Aboutcard.css"; // Import CSS file for styling
 const Aboutcard = () => {
   return (
     <div className="about-container">
-      <div style={{ marginRight: "85px" }} className="about-card">
+      <div style={{ marginRight: "50px" }} className="about-card">
         <img src={edphoto} alt="Ed Berisha" className="ed-photo" />
         <div className="text-container">
           <h2 style={{ color: "white" }}>About Me</h2>
@@ -18,14 +18,14 @@ const Aboutcard = () => {
           </p>
         </div>
       </div>
-      <div className="about-card">
+      <div  className="about-card">
         <div className="text-container">
           <h2 style={{ textAlign: "center", color: "white" }}>
             Technical Stack
           </h2>
 
-          <p style={{ fontSize: "25px", textAlign: "center" }}>Python:</p>
-          <ul style={{ marginBottom: "10px" }}>
+          <p style={{ fontSize: "25px", textAlign: "center" }}>Python</p>
+          <ul style={{ textAlign: "center", marginBottom: "10px" }}>
             <li>Object-Oriented Programming (OOP)</li>
             <li>Web Frameworks: Flask</li>
             <li>Object-Relational Mapping (ORM): SQLAlchemy</li>
@@ -33,8 +33,8 @@ const Aboutcard = () => {
             <li>Authorization: Flask-Security, Flask-JWT</li>
             <li>Password Hashing: bcrypt</li>
           </ul>
-          <p style={{ fontSize: "25px", textAlign: "center" }}>JavaScript:</p>
-          <ul>
+          <p style={{ fontSize: "25px", textAlign: "center" }}>JavaScript</p>
+          <ul style={{ textAlign: "center" }}>
             <li>Document Object Model (DOM) Manipulation</li>
             <li>Object-Oriented JavaScript (OOJS)</li>
             <li>Frontend Frameworks/Libraries: React.js</li>

@@ -16,9 +16,7 @@ const Footer = () => {
                 verticalAlign: "middle",
               }}
             />
-            <p style={{ display: "inline", color: "#fff" }}>
-              New York, NY, 10025
-            </p>
+            <p style={{ display: "inline", color: "#fff" }}>New York, NY</p>
           </div>
 
           <div className="email">
