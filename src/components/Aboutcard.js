@@ -5,6 +5,23 @@ import "./Aboutcard.css"; // Import CSS file for styling
 const Aboutcard = () => {
   return (
     <div className="about-container">
+      {/* My Resume button */}
+      <a
+        href="/PersonalSite/resume.pdf" // Adjust the path as necessary
+        target="_blank" // Open in a new tab
+        rel="noopener noreferrer" // Security best practices for opening new tabs
+        className="btn"
+        style={{
+          position: "absolute",
+          top: "100px", // Adjust the top position to move it higher up
+          left: "50%",
+          transform: "translateX(-50%)",
+          zIndex: "9999", // Ensure the button stays above other content
+        }}
+      >
+        My Resume
+      </a>
+
       <div style={{ marginRight: "50px" }} className="about-card">
         <img src={edphoto} alt="Ed Berisha" className="ed-photo" />
         <div className="text-container">
@@ -18,12 +35,11 @@ const Aboutcard = () => {
           </p>
         </div>
       </div>
-      <div  className="about-card">
+      <div className="about-card">
         <div className="text-container">
           <h2 style={{ textAlign: "center", color: "white" }}>
             Technical Stack
           </h2>
-
           <p style={{ fontSize: "25px", textAlign: "center" }}>Python</p>
           <ul style={{ textAlign: "center", marginBottom: "10px" }}>
             <li>Object-Oriented Programming (OOP)</li>

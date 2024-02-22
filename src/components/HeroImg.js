@@ -20,9 +20,15 @@ const HeroImg = () => {
           <Link to="/project" className="btn">
             Projects
           </Link>
-          <Link to="/contact" className="btn"> {/* Apply the same class "btn" */}
-            Contact
-          </Link>
+          <a
+            href="../../PersonalSite/resume.pdf"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            type="application/pdf"
+          >
+            My Resume
+          </a>
         </div>
         <div className="photos-container">
           <img src={reactphoto} alt="React" className="project-photo" />
