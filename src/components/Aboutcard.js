@@ -1,22 +1,21 @@
 import React from "react";
 import edphoto from "../assets/edberisha.png";
-import "./Aboutcard.css"; // Import CSS file for styling
+import "./Aboutcard.css";
 
 const Aboutcard = () => {
   return (
     <div className="about-container">
-      {/* My Resume button */}
       <a
-        href="/PersonalSite/resume.pdf" // Adjust the path as necessary
-        target="_blank" // Open in a new tab
-        rel="noopener noreferrer" // Security best practices for opening new tabs
+        href="/PersonalSite/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
         className="btn"
         style={{
           position: "absolute",
-          top: "100px", // Adjust the top position to move it higher up
+          top: "100px",
           left: "50%",
           transform: "translateX(-50%)",
-          zIndex: "9999", // Ensure the button stays above other content
+          zIndex: "9999",
         }}
       >
         My Resume

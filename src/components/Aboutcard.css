@@ -22,22 +22,19 @@
 }
 
 .text-container {
-  max-width: 325px; /* Reduce the maximum width of the text container by 35% */
+  max-width: 325px;
 }
 
 .text-container h2 {
-  font-size: 21px; /* Reduce font size by 35% */
-  margin-bottom: 13px; /* Reduce margin bottom by 35% */
+  font-size: 21px;
+  margin-bottom: 13px;
 }
 
 .text-container p {
-  font-size: 12px; /* Reduce font size by 35% */
-  line-height: 1.6; /* Maintain line height */
+  font-size: 12px;
+  line-height: 1.6;
 }
 
-/* Aboutcard.css */
-
-/* Set color of all text elements to white */
 body,
 p,
 h1,

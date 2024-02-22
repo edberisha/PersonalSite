@@ -62,9 +62,9 @@
 }
 
 .project-photo {
-  width: 1in; /* Set width to 1 inch */
-  height: auto; /* Maintain aspect ratio */
-  margin-top: 10px; /* Adjust spacing between the Projects button and the photo */
+  width: 1in;
+  height: auto;
+  margin-top: 10px;
 }
 
 .photos-container {
@@ -73,16 +73,16 @@
 
 .content .btn {
   margin: 1rem 0.2rem;
-  padding: 0.5rem 1rem; /* Add padding for better appearance */
-  background-color: #f8db02d6; /* Set button background color */
-  color: #fff; /* Set button text color */
-  border: none; /* Remove button border */
-  border-radius: 4px; /* Add border radius for rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+  padding: 0.5rem 1rem;
+  background-color: #f8db02d6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .content .btn:hover {
-  background-color: #003976; /* Change background color on hover */
-  color: #fff; /* Change text color on hover */
+  background-color: #003976;
+  color: #fff;
 }
