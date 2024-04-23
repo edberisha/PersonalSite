@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/personalsite/static/css/main.56ce39f4.css",
-    "main.js": "/personalsite/static/js/main.4c95820d.js",
-    "static/media/Peak.png": "/personalsite/static/media/Peak.f83e7c91510b3030b45e.png",
-    "static/media/MMRPG.png": "/personalsite/static/media/MMRPG.fe6677331567aea1c8b1.png",
-    "static/media/office2.jpeg": "/personalsite/static/media/office2.9bc472f5b4397d4fa4d3.jpeg",
-    "static/media/react.svg.png": "/personalsite/static/media/react.svg.50c366299e5e3cc3a890.png",
-    "static/media/python.svg.png": "/personalsite/static/media/python.svg.41259ded83ae0f2a4243.png",
-    "static/media/javascript.png": "/personalsite/static/media/javascript.89d2a29ca0eec3bab998.png",
-    "index.html": "/personalsite/index.html",
-    "main.56ce39f4.css.map": "/personalsite/static/css/main.56ce39f4.css.map",
-    "main.4c95820d.js.map": "/personalsite/static/js/main.4c95820d.js.map"
+    "main.css": "/PersonalSite/static/css/main.416a912b.css",
+    "main.js": "/PersonalSite/static/js/main.e99dd042.js",
+    "static/media/edberisha.png": "/PersonalSite/static/media/edberisha.9211937ec45367c2ca8b.png",
+    "static/media/texas.png": "/PersonalSite/static/media/texas.ca3748f24933e494a378.png",
+    "static/media/potluck.png": "/PersonalSite/static/media/potluck.186fa37e7ed24e646075.png",
+    "static/media/Peak.png": "/PersonalSite/static/media/Peak.f83e7c91510b3030b45e.png",
+    "static/media/MMRPG.png": "/PersonalSite/static/media/MMRPG.fe6677331567aea1c8b1.png",
+    "static/media/office2.jpeg": "/PersonalSite/static/media/office2.9bc472f5b4397d4fa4d3.jpeg",
+    "static/media/react.svg.png": "/PersonalSite/static/media/react.svg.50c366299e5e3cc3a890.png",
+    "static/media/python.svg.png": "/PersonalSite/static/media/python.svg.41259ded83ae0f2a4243.png",
+    "static/media/javascript.png": "/PersonalSite/static/media/javascript.89d2a29ca0eec3bab998.png",
+    "index.html": "/PersonalSite/index.html",
+    "main.416a912b.css.map": "/PersonalSite/static/css/main.416a912b.css.map",
+    "main.e99dd042.js.map": "/PersonalSite/static/js/main.e99dd042.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ce39f4.css",
-    "static/js/main.4c95820d.js"
+    "static/css/main.416a912b.css",
+    "static/js/main.e99dd042.js"
   ]
 }
