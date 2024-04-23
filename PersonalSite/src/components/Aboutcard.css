@@ -1,0 +1,50 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about-card {
+  display: flex;
+  align-items: center;
+  max-width: 520px;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ed-photo {
+  width: 195px;
+  height: auto;
+  margin-right: 26px;
+}
+
+.text-container {
+  max-width: 325px;
+}
+
+.text-container h2 {
+  font-size: 21px;
+  margin-bottom: 13px;
+}
+
+.text-container p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+li {
+  color: white;
+}
